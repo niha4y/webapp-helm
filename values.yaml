@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: niha4y/webapp
+  tag: latest
+
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 31080
